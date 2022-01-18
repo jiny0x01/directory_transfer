@@ -60,4 +60,4 @@ if __name__ == "__main__":
         sftp.put_dir(source_path, target_path)
         sftp.close()
     else:
-        help()
+        man()
