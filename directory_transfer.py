@@ -28,8 +28,8 @@ class MySFTPClient(paramiko.SFTPClient):
 
 
 def help():
-    print("usage:./scp_multiple_transfer [host] [ip] [port] [password] [remote_destination_full_path] [transfer_src_directory_full_path]")
-    print("e.g): ./scp_multiple_transfer root 192.123.456.78 8080 password1234! /home/root /c/Users/user1/Desktop/transfer_dir")
+    print("usage:./directory_transfer [host] [ip] [port] [password] [remote_destination_full_path] [transfer_src_directory_full_path]")
+    print("e.g): ./directory_transfer root 192.123.456.78 8080 password1234! /home/root /c/Users/user1/Desktop/transfer_dir")
 
 if __name__ == "__main__":
     print("argument length:", len(sys.argv))
