@@ -2,7 +2,7 @@
 transfer local directory to remote
 
 ## dependency
-> pip install paramiko, pyinstaller
+> pip install -r requirements.txt
 
 
 
